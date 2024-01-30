@@ -1,0 +1,342 @@
+body{
+    margin: 0;
+    background-color: #7294d8;
+    font-family: 'Inter', sans-serif;
+    color: #fdfeff;
+}
+
+.container{
+    max-width: 20px;
+}
+
+.logo{
+    width:20px ;
+    height:20px ;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    padding: 15px 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+a{
+    color: #fdfeff;
+    text-decoration: none;
+}
+
+.phone{
+    color: #4744fe;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+
+/* Home */
+
+.home-text h3{
+    font-size: 30px;
+    font-weight: 300;
+    color: #fdfeff;
+}
+
+.home-text h1{
+ font-size: 36px;
+ font-weight: 300;
+ color: #fdfeff;
+}
+
+.home-text h2{
+    font-size: 36px;
+    font-weight: 300;
+    color: #fdfeff;
+}
+
+.botones a{
+    background-color: #4744fe;
+    padding: 12px 50px;
+    border-radius: 50px;
+    color: #070d1b;
+}
+
+.redes-grupo{
+    background-color: #101624;
+    border: 1px solid #232935;
+    border-radius: 50px 0 0 50px;
+    height: 80px;
+    width: 448px;
+    align-items: center;
+    display: flex;
+    padding-left: 12px;
+}
+
+
+/* About */
+.titulo{
+    font-size: 24px;
+    font-weight: 500;
+    color: #f4f4f9;
+    text-align: center;
+}
+
+.presentacion-text{
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 18px;
+}
+
+.presentacion-subtitulo{
+    font-size: 24px;
+    font-weight: 300;
+    color: #4744fe;
+    margin-bottom: 18px;
+}
+
+.presentacion-parrafo{
+    color: #f4f5f7;
+}
+
+.presentacion-lista{
+    color: #f4f5f7;
+    margin: 0;
+    padding: 0;
+}
+
+.presentacion-lista, .botones{
+    margin-top: 43px;
+}
+
+
+/* Service */
+.card{
+    text-align: center;
+    padding: 50px 30px;
+    border-radius: 3px;
+    border: 1px solid #232935;
+    background-color: #101624;
+}
+
+.card .estilo-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.5px solid #3f4551;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    background-color: #070d1b;
+    margin: auto;
+}
+
+.card .icon{
+    width: 52px;
+}
+
+.card h2{
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.card p{
+    color: #f4f5f7;
+}
+
+
+/* Skills */
+.titulo-skills{
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.parrafo-skills{
+    color: #f4f5f7;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.titulo-progreso{
+    font-size: 16px;
+    margin: 0;
+}
+
+.porcentaje-progreso{
+    color: #4744fe;
+    font-weight: 400;
+}
+
+.progreso{
+    width: 100%;
+    height: 2px;
+    background-color: #3f4551;
+}
+
+.progreso-1{
+    width: 95%;
+    height: 2px;
+    background-color: #4744fe;
+}
+
+.progreso-2{
+    width: 75%;
+    height: 2px;
+    background-color: #4744fe;
+}
+
+.progreso-3{
+    width: 90%;
+    height: 2px;
+    background-color: #4744fe;
+}
+
+.progreso-4{
+    width: 85%;
+    height: 2px;
+    background-color: #4744fe;
+}
+
+.progreso-5{
+    width: 80%;
+    height: 2px;
+    background-color: #4744fe;
+}
+
+.progreso-6{
+    width: 90%;
+    height: 2px;
+    background-color: #4744fe;
+}
+
+
+/* Resume */
+.titulo-resume{
+    font-size: 36px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.info-resume h3{
+    font-size: 24px;
+    font-weight: 400;
+    color: #4744fe;
+}
+
+.info-resume .tiempo-resume{
+    font-size: 18px;
+    color: #a9adb8;
+}
+
+.info-resume h4{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.info-resume p{
+    font-size: 16px;
+    color: #a9adb8;
+}
+
+/* Portfolio */
+.estilos-portfolio{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 30px;
+}
+
+
+/* Review */
+.review {
+    align-items: center;
+    text-align: center;
+}
+
+.estilo-review{
+    border-radius: 3px;
+    border: 1px solid #232935;
+    background-color: #101624;
+    padding: 30px 15px;
+    margin-bottom: 40px;
+}
+
+.estilo-review p{
+    color: #a9adb8;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+/* Blog */
+.blog-info .by-blog{
+    color: #a9adb8;
+    font-size: 14px;
+}
+
+.blog-info p{
+    color: #4744fe;
+    font-size: 14px;
+}
+
+.blog-info h4{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+/* Contac Me */
+.titulo-contact{
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 22px;
+}
+
+.formulario{
+    margin-bottom: 30px;
+}
+
+.formulario input, textarea{
+    color: #a9adb8;
+    padding: 12px 20px;
+    border: 1px solid #232935;
+    background-color: #101624;
+    height: 32px;
+    border-radius: 7px;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.info-contact-unica h4{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 6px;
+}
+
+.info-contact-unica a{
+    font-size: 16px;
+    color: #a9adb8;
+}
+
+.info-contact-unica span{
+    font-size: 16px;
+    color: #a9adb8;
+}
+
+.info-social p{
+    color: #a9adb8;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+
+/* Footer */
+footer p{
+    text-align: center;
+    font-size: 16px;
+    color: #a9adb8;
+}
