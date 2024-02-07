@@ -1,18 +1,53 @@
+
+*{
+
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+    
+
+
+
+
+
+
 body{
-    margin: 0;
+    text-align: center;
+    
     background-color: #7294d8;
     font-family: 'Inter', sans-serif;
     color: #fdfeff;
 }
 
-.container{
-    max-width: 20px;
+.main{
+    width: 80%;
+    justify-content: center;
+    
 }
 
-.logo{
-    width:20px ;
-    height:20px ;
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background-color: #070d1b;
+    height: 86px;
+
 }
+
+.menu ul{
+    display: flex;
+}
+
+.menu li{
+    padding: 15px;
+    font-size: 16px;
+}
+
+
 
 ul{
     list-style: none;
@@ -43,6 +78,7 @@ a{
     font-size: 30px;
     font-weight: 300;
     color: #fdfeff;
+    padding: 20px;
 }
 
 .home-text h1{
@@ -82,12 +118,14 @@ a{
     font-weight: 500;
     color: #f4f4f9;
     text-align: center;
+    padding: 80px;
 }
 
 .presentacion-text{
     font-size: 36px;
     font-weight: 400;
     margin-bottom: 18px;
+    text-align: center;
 }
 
 .presentacion-subtitulo{
@@ -95,16 +133,20 @@ a{
     font-weight: 300;
     color: #4744fe;
     margin-bottom: 18px;
+    text-align: center;
 }
 
 .presentacion-parrafo{
     color: #f4f5f7;
+    text-align: center;
+    margin: 60px;
 }
 
 .presentacion-lista{
     color: #f4f5f7;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 .presentacion-lista, .botones{
@@ -159,6 +201,7 @@ a{
     color: #f4f5f7;
     font-size: 16px;
     font-weight: 400;
+    text-align: left;
 }
 
 .titulo-progreso{
@@ -169,11 +212,11 @@ a{
 .porcentaje-progreso{
     color: #4744fe;
     font-weight: 400;
+    text-align: right;
 }
 
 .progreso{
     width: 100%;
-    height: 2px;
     background-color: #3f4551;
 }
 
@@ -213,6 +256,24 @@ a{
     background-color: #4744fe;
 }
 
+.skill-principal{
+    display: flex;
+    padding: 15px;
+}
+
+.skill-text{
+    width: 50%;
+    padding: 35px;
+}
+
+.skill-text p{
+    margin: auto;
+    
+}
+
+.skill-info{
+    width: 50%;
+}
 
 /* Resume */
 .titulo-resume{
@@ -293,6 +354,7 @@ a{
     font-size: 30px;
     font-weight: 400;
     margin-bottom: 22px;
+    padding-top: 40px;
 }
 
 .formulario{
